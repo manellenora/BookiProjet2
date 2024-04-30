@@ -606,22 +606,33 @@ form, .filtre {
         flex-direction: column;
         align-items: center;
         padding: 0;
-    }
-
-    .banniere2 {
-
-        display: flex;
-        border-top: none;
-        max-width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
+       
     }
 
 
+nav a {
 
-nav a:hover {
+    display: flex;
+    border-top: none;
+    padding-top: 20px;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom: solid 1px #F2F2F2;
+    margin-top: 15px;
+    margin-right: 15px;
+    }
+
+
+
+      
+.banniere a:hover {
 
     border-top: none;
-    border-bottom: 1px solid #0065FC;
+    border-bottom: solid  1px #0065FC;
+    margin-top: 15px;
+    
 }
 
 
