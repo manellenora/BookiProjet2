@@ -198,21 +198,26 @@ form .fa-solid {
 .filtre {
 
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 100%;
 }
 
 .filtre a {
 
     border-radius: 30px ;
     border: solid #d9d9d9 1px;
-    padding: 10px 15px 10px 15px;
     font-weight: bold;
-    margin-right: 15px;
+    padding: 13px; 
     
 }
 
+.liensfiltre {
 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
 
 .filtre h2 {
 
@@ -279,8 +284,6 @@ form .fa-solid {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
-    
-    
     }
     
 .rangee2 {
@@ -493,7 +496,8 @@ footer p {
 
     body {
 
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 
@@ -594,6 +598,7 @@ footer p {
 .main-container {
 
     padding: 0;
+    margin: 0;
 }
 
 
@@ -635,28 +640,28 @@ form, .filtre {
 
 
 .banniere2 {
-
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     border-bottom: solid 1px #d9d9d9;
     width: 100%;
+    gap: 0;
 }
 
 
-.banniere a {
+nav a {
+
+width: 50%;
+gap: 0;
+text-align: center;
 padding-bottom: 10px;
+
 }
 
 
       
-.banniere a:hover {
-
-    border-top: none;
-    border-bottom: solid  1px #0065FC;
-    width: 100%;
-    padding-bottom: 10px;
+nav a:hover {
+border-top-color: transparent;
+    border-bottom: solid 1px #0065FC;
+    margin-bottom: -1px;
     
 }
 
@@ -680,10 +685,11 @@ padding-bottom: 10px;
 
 form #lieu {
 
-    width: 60%;
     padding: 15px;
     font-size: 1.1em;
-    padding-left: 20px;
+    flex: 1;
+    width: 80%;
+
 }
 
 form .fa-solid {
@@ -693,20 +699,23 @@ font-size: 1.1em;
 
 form {
 
-    display: flex;
-    flex: 1;
-    width: 100%;
+margin: 0;
+padding-right: 15px;
+
 }
 
 .filtre{
-justify-content: center;
+    
 display: flex;
 flex-direction: column;
-padding: 10px;
-display: inline-block;
-
 }
 
+.liensfiltre {
+
+   display: inline-block;
+   width: 45%;
+
+}
 
 .filtre h2 {
 
@@ -716,14 +725,8 @@ display: inline-block;
     display: flex;
     font-size: 0.9em;
     margin-right: 0px;
-    width: 35%;
-    display: inline-block;
-    margin: 8px;
-    padding: 15px;
 
 }
-
-
 
 /**** fin top *****/
 
@@ -819,7 +822,7 @@ flex-direction: column;
 .activites-cards .card-title {
 
     width: 100%;
-    box-sizing: border-box;
+   
     
 }
 
@@ -837,5 +840,3 @@ flex-direction: column;
 }
 
 }
-
-
