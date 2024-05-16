@@ -73,7 +73,6 @@ a {
 .banniere2 {
 
     display: flex;
-    justify-content: flex-end;
     gap: 100px;
     margin-top: 5px;
   
@@ -82,14 +81,11 @@ a {
 
 nav a {
 
-
     border-top: solid 1px transparent;
     }
     
     
     nav a:hover {
-    
-    
     border-top: solid 1px royalblue;
     color: royalblue;
     padding-top: 13px;
@@ -123,8 +119,6 @@ h1 {
 
 form {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     margin-bottom: 20px;
  
     
@@ -164,7 +158,6 @@ form .fa-solid {
     color: white;
     border: solid 1px #0065FC;
     border-radius: 0px 10px 10px 0px;
-    padding: 8.5px;
     font-weight: bold;
     font-size: 1em;
     padding: 10px 18px 10px 18px;
@@ -402,9 +395,6 @@ form .fa-solid {
 /********* Activités ********/
 
 
-
-
-
 .activites-cards {
 
     display: flex;
@@ -430,6 +420,8 @@ form .fa-solid {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    margin-top: 30px;
+
     
 }
 
@@ -437,12 +429,6 @@ form .fa-solid {
 
     margin-top: 40px;
     
-}
-
-.activites .section-title {
-
-    margin-bottom: 30px;
-    padding-left: 5px;
 }
 
 
@@ -457,7 +443,6 @@ form .fa-solid {
     margin-top: -4.5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     flex: 1;
-    align-items: center;
 }
 
 
@@ -482,9 +467,10 @@ footer h3 {
 
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    justify-content: space-around;
+    margin-left: -100px;
     max-width: 100%;
-    padding-left: 20px;
+    
 }
 
 .footer1 {
@@ -535,12 +521,6 @@ padding: 7px;
    }
 
 
-    .hebergements img {
-
-        max-width: 100%;
-        max-height: 100%;
-    }
-
 
 /*******Populaires *****/
 
@@ -578,23 +558,19 @@ padding: 7px;
 
 
 
-
-
 .activites-cards img{
 
     display: flex;
     flex-direction: row;
-    height: 190px;
+    height: 210px;
     justify-content: center;
-
 }
+
+
 
 .activites-cards .card-title {
 
-   
-    box-sizing: border-box;
-        height: 70px;
-        padding-top: 15px;
+        align-items: center;
        
     
 }
@@ -604,7 +580,7 @@ padding: 7px;
     .liens-footer {
     gap: 130px;
     display: flex;
-    justify-content: flex-start;
+    margin-left: 15px;
     }
 }
 
@@ -620,6 +596,41 @@ padding: 7px;
 
 }
 
+
+
+.banniere {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.banniere2 {
+margin-top: 25px;
+border-bottom: solid 1px #d9d9d9;
+width: 100%;
+gap: 0;
+}
+
+
+nav a {
+
+width: 50%;
+gap: 0;
+text-align: center;
+padding-bottom: 10px;
+
+}
+
+
+  
+nav a:hover {
+border-top-color: transparent;
+border-bottom: solid 1px #0065FC;
+margin-bottom: -1px;
+
+}
 
 
 h1 {
@@ -647,39 +658,6 @@ form {
     padding-left: 15px;
 }
 
-.banniere {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-.banniere2 {
-    margin-top: 25px;
-    border-bottom: solid 1px #d9d9d9;
-    width: 100%;
-    gap: 0;
-}
-
-
-nav a {
-
-width: 50%;
-gap: 0;
-text-align: center;
-padding-bottom: 10px;
-
-}
-
-
-      
-nav a:hover {
-border-top-color: transparent;
-    border-bottom: solid 1px #0065FC;
-    margin-bottom: -1px;
-    
-}
 
 
 
@@ -875,6 +853,7 @@ margin-top: 30px;
     gap: 15px;
     padding-left: 35px;
     padding-bottom: 25px;
+    margin-left: 0;
 
 }
 
