@@ -82,7 +82,7 @@ a {
 nav a {
 
     border-top: solid 1px transparent;
-    }
+}
     
     
     nav a:hover {
@@ -147,7 +147,6 @@ form .fa-solid {
     padding: 9.8px;
     text-align: center;
     width: 15px;
-    color: black;
   
    
     
@@ -183,7 +182,6 @@ form .fa-solid {
 .filtre {
 
     display: flex;
-    flex-direction: row;
     margin-bottom: 30px;
 }
 
@@ -199,8 +197,6 @@ form .fa-solid {
 .liensfiltre {
 
     display:flex;
-    justify-content: flex-start;
-    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
 }
@@ -324,7 +320,7 @@ form .fa-solid {
         
         
 .hebergements .card-subtitle {
-    margin-top: -2px;
+    margin-top: -8px;
     margin-left: 8px;
     }
 
@@ -465,11 +461,11 @@ footer h3 {
 
 .liens-footer {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: -100px;
-    max-width: 100%;
+display: flex;
+ flex-direction: row;
+ margin-left: 20px;
+gap: 250px;
+max-width: 100%;
     
 }
 
@@ -709,6 +705,7 @@ margin: 18px;
 
 .liensfiltre {
    justify-content: center;
+   gap: 15px 2%;
 
 
 }
@@ -719,8 +716,9 @@ margin: 18px;
     display: flex;
     font-size: 0.8em;
     margin-right: 0px;
-    flex: 1;
-
+    width:42%;
+    padding: 13px 3%;
+     
 }
 
 .information {
