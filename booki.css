@@ -504,6 +504,12 @@ padding: 7px;
 
 
 
+    .filtre {
+
+        display: flex;
+        flex-direction: column;
+    }
+
     /********Hébergements *******/
 
    .hebergements {
